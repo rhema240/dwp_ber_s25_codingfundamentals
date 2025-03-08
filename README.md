@@ -1,4 +1,4 @@
-# DPW Berlin S25 Coding Fundamentals
+# DWP Berlin S25 Coding Fundamentals
 Repository for the Coding Fundamentals class of Digital Women Program - Berlin Spring 2025
 
 Welcome! 
