@@ -1,4 +1,3 @@
 # Lesson 2 
 
-// TBD
-Hello, Vanessa!
+// I see where this is going. so far so good
