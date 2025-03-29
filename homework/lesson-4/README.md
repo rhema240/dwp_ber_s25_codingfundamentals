@@ -1,4 +1,4 @@
-# Exercises on Data Structures (Lists and Sets)             
+# Exercises on Data Structures (Lists, Sets, Tuples)             
 
 ## Exercise 0
 **Given the following scores, what is the length of the list?**
@@ -41,3 +41,8 @@ reverse_this_list = [10, 20, 30, 40, 50]
 
 ## Exercise 6
 **Convert the scores list (from Exercise 0) into a set and print its elements**
+
+## Exercise 7
+**Create a List of Tuples with 5 country names and their capitals, and print the list**
+
+***Each tuple should contain one country and its capital***
