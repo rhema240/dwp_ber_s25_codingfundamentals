@@ -45,4 +45,4 @@ reverse_this_list = [10, 20, 30, 40, 50]
 ## Exercise 7
 **Create a List of Tuples with 5 country names and their capitals, and print the list**
 
-***Each tuple should contain one country and its capital***
+Each tuple should contain one country and its capital
