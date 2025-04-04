@@ -3,8 +3,7 @@
 ## Exercise 0
 ## Given the following scores, what is the length of the list?
 scores = [5, 6, 6, 13, 6, 16, 2, 4, 6, 15, 3, 7, 20, 3, 24, 24, 1, 23, 3, 3, 3, 21, 7, 2, 12]
-length_of_list = len(scores)
-print("The length of the scores list is: ", length_of_list)
+print("The length of the scores list is: ", len(scores))
 
 ## Exercise 1:
 ## Given the same list of scores, write a program that counts the number of 3s in the list
