@@ -1,7 +1,7 @@
 # Exercises on Functions and Imports
 
 ## HOMEWORK 1: Google time
-By using Google, find a function that gives you current date and time and print the current date and time**
+By using Google, find a function that gives you current date and time and print the current date and time
 
 ## HOMEWORK 2
 Do you still remember loops?
