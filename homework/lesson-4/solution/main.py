@@ -41,7 +41,7 @@ list_2 = ["1", 2, "3", 3, "4", "foo", "pasm", "bar"]
 
 common_elements = []
 for item in list_1:
-    if item in list_2 and item not in common_elements:
+    if item in list_2 and item not in common_elements: # check if item is in list_2 and check if it's already added to the common_elements list
         common_elements.append(item)
 
 print("Common elements - solution 1:", common_elements)
