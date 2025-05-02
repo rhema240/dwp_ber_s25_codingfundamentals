@@ -30,3 +30,22 @@ name = "Alex"
 age = 25
 print(f"My name is {name} and I'm {age} years old.")
 
+#Making multiplication tables
+for column in range(1,4):
+    print(1 * column, end="I")
+
+for column in range(1,4):
+    print(2 * column, end= "I")
+
+for column in range(1,4):
+    print(3 * column, end= "I")
+print()
+
+while True:
+    age = input("Enter your age: ")
+    if age.isdigit() and int(age) >=0:
+        print(f"Your age is (age)")
+        break
+print("Please enter a valid age.")
+
+x = r
