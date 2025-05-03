@@ -24,7 +24,7 @@ from random import randint
 def numbers(number1, number2):
     return randint(number1, number2)
 
-print("🧮 Welcome to the Basic Calculator!")
+print("Welcome to the Basic Calculator!")
 print("Enter two numbers to perform operations.")
 print("Type 'q' to quit.\n")
 
@@ -48,7 +48,7 @@ while True:
         continue
 
 
-    #Operations
+    
     print("\n🔢 Number Operations")
     print(f"Addition: {number1} + {number2} = {number1 + number2}")
     print(f"Subtraction: {number1} - {number2} = {number1 - number2}")
@@ -76,8 +76,6 @@ print("\n---\n")
 print("\nLets play a game\n")
 print("Guess a number between 1-100, lets try to guess the same number")
 print("You have five tries to guess it.\n")
-
-users_number = int(input("Guess the computers number:"))
 
 MAX_TRIES = 5
 
