@@ -48,4 +48,4 @@ while True:
         break
 print("Please enter a valid age.")
 
-x = r
+
