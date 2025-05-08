@@ -109,9 +109,9 @@ def play_game():
     else: 
         print("Congrats! You won 👏")
 
-```
-# play_game()
 
+# play_game()
+```
 
 ## Exercise 3: Credit Card Masking
 Complete the `mask_credit_card_number` function that takes in a 16-digit credit card number and masks all but the last 4 digits.
@@ -124,12 +124,13 @@ def mask_credit_card_number(credit_card_number):
     masked_credit_card_number = ''
     # write your code here!
     return masked_credit_card_number
-```
+
 # Uncomment the lines bellow to test your answer 👇👇👇
 # print('Expected result: ', expected_credit_card_result)
 # print('Your result:')#
 # mask_credit_card_number(sample_credit_card_number)
 
+```
 
 
 ## Exercise 4: Maximum Number
