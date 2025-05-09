@@ -17,7 +17,7 @@ while True:
         break
     else:
         shopping_list.append(item)
-        print("Item added! Add more or type 'done' to finish.\n")
+        print("Item added. Add more or type 'done' to finish.\n")
 
 
 '''
@@ -26,14 +26,12 @@ Test your program with these scenarios:
 
 1. Normal items: milk, bread, eggs
 2. Items with spaces: " milk  " (extra spaces)
-3. Empty inputs: (just press Enter)
 4. Different cases of 'done': DONE, Done, done
-
 
 ## BONUS CHALLENGES (OPTIONAL)
 After completing the basic requirements, try these:
 
-1. Don't allow duplicate items
+1. Don't allow duplicate items #make sets
 2. Sort the list alphabetically before displaying
 
 '''
