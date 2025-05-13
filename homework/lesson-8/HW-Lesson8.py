@@ -81,6 +81,7 @@ print("..\n")
 
 ### Bonus: Create a dictionary from two lists:
 #### Use the functions dict() and zip()
+def 
 dishes = ["Pizza", "Sauerkraut", "Paella", "Hamburger"]
 countries = ["Italy", "Germany", "Spain", "USA"]
 
