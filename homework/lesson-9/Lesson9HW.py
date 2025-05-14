@@ -1,7 +1,7 @@
 #1
-from inquire import inquire
-import random
 
+import random
+#from inquire import inquire
 ## Exercise 1: Student Grouping
 #Imagine you are a teacher who needs to group their students into pairs or small groups. 
 #Given the following list of dictionaries, create random pairs or groups of students – each pair has to have the same project choice.
@@ -49,12 +49,18 @@ students = [
     },
 ]
 
+Pair_1 = []
+
+for name in students:
+    if "choice" == "Project B":
+        print(students.get("name"))
+
+
 
 #Example pairs:
 #- Pair 1: [John, Jane] (they both have Project B)
 #- Pair 2: [Janine, Janet] (they both have Project A)
 
-#You can use the following helper function:
 
 def pick_random_name(list_names):
     random_name = random.choice(list_names)
@@ -62,14 +68,17 @@ def pick_random_name(list_names):
 
 #**Bonus**: Make your code into a function which returns the list of pairs.
 
-### Preparation
-#Run the code a few times to understand what is happening. The 'inquire' function will ask 3 questions for each person. You don't need to understand how the 'inquire' function works, you just need to use it. You will be able to select one of two options for each question asked. You will then need to do some calculations based on the result created by the 'inquire' function.
+## Preparation
+# Run the code a few times to understand what is happening. The 'inquire' function will ask 3 questions for each person. 
+# You don't need to understand how the 'inquire' function works, you just need to use it. 
+# You will be able to select one of two options for each question asked. 
+# You will then need to do some calculations based on the result created by the 'inquire' function.
 
 
 people = ["John", "Jane", "Janet"]
-# result = [inquire(person) for person in people]
+#result = [inquire(person) for person in people]
 print("Result: ")
-# pprint(result)
+#print(result)
 
 
 ## Exercise 2
@@ -78,7 +87,8 @@ print("Result: ")
 #Example output:
 #- Jane sum: $74
 
-#The `convert_dollars` function will help you convert the strings given in our result list into numbers that you can use to perform calculations. From $X (type str) to X (type int)
+#The `convert_dollars` function will help you convert the strings given in our result list into numbers that you can use to perform calculations. 
+# From $X (type str) to X (type int)
 
 def convert_dollars(value):
     number_value = int(value.replace("$", ""))
