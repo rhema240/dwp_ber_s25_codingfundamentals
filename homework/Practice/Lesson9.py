@@ -242,6 +242,8 @@ for i,index in l:
       count += 1
       print(i)
 
+for number in range()
+
 '''
 # CODEWARS
 
