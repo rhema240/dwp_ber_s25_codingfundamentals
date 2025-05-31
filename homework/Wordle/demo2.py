@@ -20,7 +20,8 @@ WORD_LIST = [
     'apple', 'grape', 'mango', 'pearl', 'stone', 'climb',
     'brave', 'flame', 'drink', 'fresh', 'video', 'wheel',
     'plane', 'fruit', 'lemon', 'poise', 'actor', 'earth',
-    'house', 'field'
+    'house', 'field','green', 'travel', 'house', 'stamp',
+    'nurse',
 ]
 solution = random.choice(WORD_LIST)
 
