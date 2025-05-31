@@ -40,12 +40,13 @@ else:
     print(f"❌ Out of attempts! The word was: {solution}")
 
 '''
+
 #Method 2 
 #Does not accept an invalid input
 
 import random
 
-WORD_LIST = ['apple', 'grape', 'mango', 'pearl', 'stone', 'climb', 'brave', 'flame', 'drink', 'fresh', 'video', 'wheel', 'plane', 'fruit']
+WORD_LIST = ['apple', 'grape', 'mango', 'pearl', 'stone', 'climb', 'brave', 'flame', 'drink', 'fresh', 'video', 'wheel', 'plane', 'fruit', 'lemon', 'fruit', 'poise', 'actor', 'earth', 'house', 'field']
 solution = random.choice(WORD_LIST)
 
 def give_feedback(guess, solution):
@@ -62,7 +63,7 @@ def give_feedback(guess, solution):
 def is_valid_guess(word):
     return len(word) == 5 and word.isalpha()
 
-print("Welcome to Wordle in Python!")
+print("Welcome to Wordle in Python!\n")
 attempt = 1
 max_attempts = 6
 
@@ -70,26 +71,25 @@ while attempt <= max_attempts:
     guess = input(f"Attempt {attempt}/{max_attempts} - Enter a 5-letter word: ").lower()
 
     if not is_valid_guess(guess):
-        print("❌ Invalid input: Only 5-letter alphabetic words allowed. Try again.")
+        print("Word not in list.")
         continue
 
     if guess not in WORD_LIST:
-        print("❌ Word not in the list. Try again.")
+        print("Word not in list.")
         continue
 
     feedback = give_feedback(guess, solution)
-    print("Feedback:", feedback)
+    print(" ".join(guess.upper()))
+    print("".join(feedback))
 
     if guess == solution:
-        print("🎉 Congratulations! You guessed the word!")
+        print(" You guessed the word!")
         break
 
     attempt += 1
 
 else:
-    print(f"❌ Out of attempts! The word was: {solution}")
-
-
+    print(f" The word was: {solution}")
 
 
 
