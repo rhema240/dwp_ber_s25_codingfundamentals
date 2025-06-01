@@ -41,12 +41,12 @@ def play_wordle():
             else:
                 feedback.append (GRAY + guess[i].upper() + RESET )
 
-        print("".join(feedback))  # Show feedback in Wordle format
+        print("".join(feedback)) 
 
         if guess == wordle:
-            print("🎉 Congratulations! You guessed the word correctly!")
+            print("correct! {wordle}")
             break
     else:
-        print(f"😢 Out of attempts! The correct word was '{wordle}'.")
+        print(f"The correct word was '{wordle}'.")
 
 play_wordle()

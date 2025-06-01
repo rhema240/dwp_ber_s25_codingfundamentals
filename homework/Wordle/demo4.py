@@ -1,7 +1,6 @@
 import random
 from colorama import init, Fore, Back, Style
 
-# Initialize colorama
 init(autoreset=True)
 
 # List of 5-letter words
